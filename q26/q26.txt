@@ -1,0 +1,3 @@
+ A pod “my-data-pod” in data namespace is not running. Fix the issue and get it in running state.
+  
+   Note: All supported definition files are placed at root

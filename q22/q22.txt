@@ -1,0 +1,4 @@
+Create a new deployment called nginx-deployment with an image nginx:1.16 and 5 replicas. There are 2 worker nodes in our cluster. 
+ Please make sure no pod will get deployed on node7.
+ 
+ Note: Revert any changes that you do on this environment. 

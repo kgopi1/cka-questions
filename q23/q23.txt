@@ -1,0 +1,9 @@
+ Create a replicaset (name : web-replica, image=nginx, replicas=3), there is already a pod running in our cluster.  
+ Please make sure that total count of pods running in the cluster is not more than 3.
+  
+  Create given pod well in advance using below command:
+  
+  g run web-critical --image=nginx --port 8080 --labels app=web
+  
+  It's an easy 1:  Practice_for_CKA_exam_Q23_with_solution .. Score good marks in CKA Exam 2022
+  #kubenetes #CKA #DevOps #security #2022 #google

@@ -1,0 +1,1 @@
+ A pod “prod-pod” (image=nginx, port 8080) in default namespace is not running. We need fix it and bring it in running state.

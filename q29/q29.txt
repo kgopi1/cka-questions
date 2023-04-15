@@ -1,0 +1,3 @@
+One static pod "web-static" image (busybox) is currently running on worker node node8, move static pod to run on node7. dont do any other chagnes to pod. 
+
+Note: static pod name should be changed from web-static-node8 to web-static-node7

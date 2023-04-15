@@ -1,0 +1,5 @@
+Craete a PersistentVolume, PersistentVolumeClaim and Pod with below specifications
+
+  PV - name : mypvl , Size: 100Mi, AccessModes: ReadWritemany, Hostpath: /pv/log, Reclaim Policy: Retain
+  PVC - name:  pv-claim-l, Storage request: 50Mi, Access Modes: ReadWritemany 
+  Pod - name : my-nginx-pod, image Name: nginx, Volume: PersistentVolumeClaim: pv-claim-l, volume mount : /log

@@ -1,0 +1,2 @@
+List internal IPs of all nodes of given cluster, save result to a file /root/InternalIPList
+ Answer should be in a format: Internal IP of 1st Node (space) Internal IP od 2nd node (in a single line)

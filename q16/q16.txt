@@ -1,0 +1,4 @@
+Create a pod called pod-jxc, using details mentioned below:
+  SecurityContect
+  runasUser: 1000
+  fsGroup: 2000

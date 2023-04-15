@@ -1,0 +1,3 @@
+ We have deployed a pod called web-pod (where port 80 was exposed using service web-pod). Incoming connections (from a pod apicheck) to web-pod service are not working. 
+Identify and make certain changes on pod apicheck (re-deploy is needed) so that it can access web-pod.
+Note: A NetworkPolicy named api-allow was also created as part of the deployment.

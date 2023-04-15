@@ -1,0 +1,3 @@
+Create a new deployment web-003, scale this deployment to 3 replicas, make sure desired number of pods are always running.
+Create exam scenario using below command :
+ sudo sed i 's/\ kube-controller-manager/\- kube-controller-man/g' /etc/kubernetes/manifests/kube-controller-manager.yaml

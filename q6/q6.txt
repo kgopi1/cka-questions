@@ -1,0 +1,1 @@
+deploy a web-load-5461 pod using nginx:1.17 with the label set to tier=web

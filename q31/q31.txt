@@ -1,0 +1,9 @@
+ Create a network policy to allow traffic from internal application only to payrool-service and db-service.
+
+user the spec given below. 
+policy Name: internal-policy
+policy Type: Egress
+Egress Allow: payroll
+Payroll port: 8080
+Egress Allow: mysql 
+MySql port: 3306

@@ -1,0 +1,3 @@
+Create a pod called web-pod using image nginx, expose it internally with a service called web-pod-svc.
+ Check that you are able to lookup the service as well as pod from within the cluster.
+  use Image busybox:1.28 for  a new nslookup pod to cross verify and record results in web-svc.svc and web-pod.pod

@@ -1,0 +1,5 @@
+Create a persistent volume with given specifications:
+  Volume Name - pv-rnd
+  storage - 100Mi
+  Access modes - ReadWriteMany
+  host path - /pv/host-data-rnd

@@ -1,0 +1,2 @@
+Create a new deployment called web-proj-268 with image nginx:1.16 and one replica. Next, upgrade the deployment to version 1.17 using rolling update. 
+Make sure that the version upgrade is recorded in the resource annotation.

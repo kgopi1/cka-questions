@@ -1,0 +1,6 @@
+Apply taint a worked node node7 with details provided below:
+ Create a pod called dev-pod-nginx using image=nginx, 
+ make sure workloads are not scheduled to this worker node (node7)
+ Create another pod prod-pod-nginx using image=nginx with a toleration to be scheduled on node7. 
+
+ Details :key:env_type, value:production, operator: Equal & effect: NoSchedule

@@ -1,0 +1,3 @@
+ A CSR object has been created in the system which you need to check and process it further based on its access request type
+
+Note: system masters groups access is strictly prohibited and should be delete instanntly. 

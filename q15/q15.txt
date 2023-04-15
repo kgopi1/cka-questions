@@ -1,0 +1,4 @@
+Expose "audit-web-app" pod to by creating a service "audit-web-app-service" on port 30002 on nodes of given cluster.
+  Note : Now given web application listens on port 8080
+  use below command to create an exam like scenario: 
+    kubectl run audit-web-app --image=nginx --port=8080

@@ -1,0 +1,1 @@
+Create a pod called delta-pod in defence namespace belonging to the development environment (env=dev)  and frontend tier (tier=front), image: nginx:1.17

@@ -1,0 +1,1 @@
+ We have worker 3 nodes in our cluster, create a DaemonSet (name prod-pod, image=nginx) on each node except worker node8.

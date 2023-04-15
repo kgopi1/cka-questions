@@ -1,0 +1,5 @@
+Worker node node7 is not responding, have a look and fix the issue
+
+ Create exam scenario run these 2 commands:  
+ ssh node7 \ sudo sed -i 's/ca.crt/YOU_ARE_LOOKING_FOR_ME.crt/g' /var/lib/kubelet/config.yaml
+ ssh node7 \ sudo systemctl  restart kubelet

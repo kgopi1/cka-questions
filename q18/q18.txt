@@ -1,0 +1,7 @@
+Create a user “nec-adm". Grant nec-adm access to cluster, should have permissions to create, list, get, update, and delete pods in nec namespace 
+ Private key exist in location:  /vagrant/nec-adm.key and csr at /vagrant/nec-adm.csr
+   
+  Create exam scenario using below commands:
+   g create ns nec
+   openssl genrsa -out nec-adm.key 2048
+   openssl req -new -key nec-adm.key -out nec-adm.csr

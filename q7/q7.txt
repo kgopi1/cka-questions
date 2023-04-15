@@ -1,0 +1,1 @@
+Create static pod on node07 called static-nginx with image nginx and you have to make sure that it is recreated/restarted automatically in case of any failure happens.
